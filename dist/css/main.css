@@ -56,4 +56,20 @@ button .circle {
   -webkit-animation: scale 0.5s ease-out;
           animation: scale 0.5s ease-out;
 }
+
+@-webkit-keyframes scale {
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(3);
+            transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes scale {
+  to {
+    -webkit-transform: translate(-50%, -50%) scale(3);
+            transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
